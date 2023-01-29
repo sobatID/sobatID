@@ -12,6 +12,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
 
     <title>Hello, world!</title>
@@ -54,7 +55,7 @@
 
     <!-- jumnotron -->
     <section class="jumbotron text-center">
-      <img src="logo.png" alt="smkn 1 simba" width="200" class="rounded-circle img-thumbnail" />
+      <img src="logo.png" alt="smkn 1 simba" width="200" class="rounded-circle img-thumbnail" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="50"/>
       <h1 class="display-4">OSIS SMKN 1 SIMBA</h1>
       <p class="lead">MENCARI KONEKSI DENGAN BERORGANISASI</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -76,10 +77,10 @@
           </div>
         </div>
         <div class="row justify-content-center fs-4 mb-3">
-          <div class="col-md-4">
+          <div class="col-md-4"  data-aos="fade-right" data-aos-duration="2000">
             <p>Berkomitmen untuk menciptakan lingkungan induksif,produktif dan berdaya guna,dimana semua siswa dapat mencapai potensi mereka.</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="10">
             <p>
               -Mengaktifkan program kerja pengurus Osis sesuai bidang atau divisi yang bersangkutan.
             </p>
@@ -110,7 +111,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3" >
-            <div class="card" >
+            <div class="card" data-aos="flip-left" data-aos-duration="2000">
               <img src="img/1.jpg" class="card-img-top" alt="">
                 <div class="card-body">
                   <p class="card-text fs-4">Pemilihan osis masa bakti 2022/2023</p>
@@ -122,7 +123,7 @@
         <!-- foto 2 -->
         
           <div class="col-md-4 mb-3" >
-            <div class="card" >
+            <div class="card" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="100">
               <img src="img/2.jpg" class="card-img-top" alt="">
                 <div class="card-body">
                   <p class="card-text fs-4">Pemilihan osis masa bakti 2022/2023</p>
@@ -133,7 +134,7 @@
         
         <!-- foto 3 -->
         <div class="col-md-4 mb-3" >
-          <div class="card" >
+          <div class="card" data-aos="flip-left"  data-aos-duration="2000" data-aos-delay="200" >
             <img src="img/3.jpg" class="card-img-top" alt="">
               <div class="card-body">
                 <p class="card-text fs-4">Pemilihan osis masa bakti 2022/2023</p>
@@ -143,7 +144,7 @@
         </div>
         <!-- foto4 -->
         <div class="col-md-4 mb-3" >
-          <div class="card" >
+          <div class="card" data-aos="flip-left"  data-aos-duration="2000" data-aos-delay="300" >
             <img src="img/4.jpg" class="card-img-top" alt="">
               <div class="card-body">
                 <p class="card-text fs-4">class meeting</p>
@@ -153,7 +154,7 @@
         </div>
         <!-- foto5 -->
         <div class="col-md-4 mb-3" >
-          <div class="card" >
+          <div class="card" data-aos="flip-left"  data-aos-duration="2000" data-aos-delay="400">
             <img src="img/5.jpg" class="card-img-top" alt="">
               <div class="card-body">
                 <p class="card-text fs-4">class meeting</p>
@@ -171,5 +172,10 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+       <!-- link aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
